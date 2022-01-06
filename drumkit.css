@@ -1,5 +1,6 @@
 body{
     background-image: url("drumkitbg.jpg");
+    background-repeat: no-repeat;
 }
 .keys{
     display: flex;

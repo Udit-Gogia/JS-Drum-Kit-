@@ -11,31 +11,31 @@
 
     <div class="keys" >
 
-        <div class="1 key a">
+        <div class="1 key a" data-key="65" onclick="playsound('a')">
 
             <div class="name">
                 A
             </div>
 
-            <div class="key-name">
+            <div class="key-name" >
                 CLAP
             </div>
 
         </div>
 
-        <div class="2 key s">
+        <div class="2 key s" data-key="83" onclick="playsound('s')">
 
             <div class="name">
                 S
             </div>
 
             <div class="key-name">
-                HITHAT
+                HIHAT
             </div>
 
         </div>
 
-        <div class="3 key d">
+        <div class="3 key d" data-key="68" onclick="playsound('d')">
 
             <div class="name">
                 D
@@ -47,7 +47,7 @@
 
         </div>
 
-        <div class="4 key f">
+        <div class="4 key f" data-key="70" onclick="playsound('f')">
 
             <div class="name">
                 F
@@ -59,7 +59,7 @@
 
         </div>
 
-        <div class="5 key g">
+        <div class="5 key g" data-key="71" onclick="playsound('g')">
 
             <div class="name">
                 G
@@ -71,7 +71,7 @@
 
         </div>
 
-        <div class="6 key h">
+        <div class="6 key h" data-key="72" onclick="playsound('h')">
 
             <div class="name">
                 H
@@ -83,7 +83,7 @@
 
         </div>
 
-        <div class="7 key j">
+        <div class="7 key j" data-key="74" onclick="playsound('j')">
 
             <div class="name">
                 J
@@ -95,7 +95,7 @@
 
         </div>
 
-        <div class="8 key k">
+        <div class="8 key k" data-key="75" onclick="playsound('k')">
 
             <div class="name">
                 K
@@ -107,7 +107,7 @@
 
         </div>
 
-        <div class="9 key l">
+        <div class="9 key l" data-key="76" onclick="playsound('l')">
 
             <div class="name">
                 L
@@ -120,6 +120,16 @@
         </div>
 
     </div>
+
+<audio data-key="65" src="sounds/clap.wav"></audio>
+<audio data-key="83" src="sounds/hihat.wav"></audio>
+<audio data-key="68" src="sounds/kick.wav"></audio>
+<audio data-key="70" src="sounds/openhat.wav"></audio>
+<audio data-key="71" src="sounds/boom.wav"></audio>
+<audio data-key="72" src="sounds/ride.wav"></audio>
+<audio data-key="74" src="sounds/snare.wav"></audio>
+<audio data-key="75" src="sounds/tom.wav"></audio>
+<audio data-key="76" src="sounds/tink.wav"></audio>
 
 </body>
 </html>
