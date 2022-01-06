@@ -35,9 +35,31 @@ body{
     border: 2px solid rgb(255,255,255);
 }
 
-/*.a,.d,.h,.k{*/
-/*transform: rotateZ(-30deg);*/
-/*}*/
-/*.s,.f,.j,.l{*/
-/*    transform: rotateZ(30deg);*/
-/*}*/
+.created-by{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width:200px;
+    padding: 20px;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    color: white;
+}
+.link-portfolio {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+}
+.link-portfolio:hover{
+    text-decoration: underline;
+}
+.text-cb{
+    margin:0;
+}

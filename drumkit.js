@@ -1,6 +1,9 @@
 window.addEventListener("keydown", function (e){
     playsound(e.key);
 
+    const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
+    key.classList.add('playing');
+
 });
 
 function playsound(key){
@@ -52,5 +55,5 @@ function playsound(key){
             break;
     }
 
-
 }
+
